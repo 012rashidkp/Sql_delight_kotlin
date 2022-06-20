@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:cardElevation="10dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="tittle"
+    android:id="@+id/txt_title"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="17dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_gravity="start"
+    android:gravity="start"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5.2dp"
+
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="description android database"
+    android:id="@+id/txt_desc"
+    android:textStyle="normal"
+    android:textSize="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="12dp"
+    />
+        </LinearLayout>
+<ImageView
+    android:id="@+id/deletebtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/delete_btn"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp"
+    app:tint="@color/teal_700" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
